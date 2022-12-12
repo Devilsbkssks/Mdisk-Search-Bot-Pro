@@ -15,7 +15,10 @@ async def help_handler(_, event: Message):
 
              [InlineKeyboardButton("About", callback_data="About_msg"),
              InlineKeyboardButton("Help", callback_data="Help_msg")
-             ]
+             ],
+            [
+            InlineKeyboardButton('🔥Ⓔ︎Ⓐ︎Ⓡ︎Ⓝ︎Ⓘ︎Ⓝ︎Ⓖ︎ Ⓣ︎Ⓘ︎Ⓟ︎Ⓢ︎🔥', url=f'https://t.me/Mdiskbotsupport/42')
+            ]
         ])
     )                        
 
@@ -41,7 +44,10 @@ async def start_handler(_,event: Message):
              [InlineKeyboardButton("About", callback_data="About_msg"),
              InlineKeyboardButton("Help", callback_data="Help_msg")
              ]
-        ])
+            [
+            InlineKeyboardButton('🔥Ⓔ︎Ⓐ︎Ⓡ︎Ⓝ︎Ⓘ︎Ⓝ︎Ⓖ︎ Ⓣ︎Ⓘ︎Ⓟ︎Ⓢ︎🔥', url=f'https://t.me/Mdiskbotsupport/42')
+            ]
+])
     )
 
 VERIFY = {}
