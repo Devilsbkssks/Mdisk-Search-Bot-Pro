@@ -1,5 +1,3 @@
-# (c) @RoyalKrrishna
-
 import os
 # from dotenv import load_dotenv
 
@@ -18,7 +16,7 @@ class Config(object):
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
-    START_MSG = os.getenv("START_MSG", '''Hᴇʏ {m.from_user.mention(style='md')}😃
+    START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bro😃
 
 I'ᴍ A Bᴏᴛ Fᴏʀ Sᴇɴᴅɪɴɢ Fʀᴏᴍ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ.😚
 
