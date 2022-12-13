@@ -7,8 +7,7 @@ from TeamTeleRoid.database import db
 
 @Client.on_message(filters.command("help") & filters.private)
 async def help_handler(_, event: Message):
-    await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
-    )                        
+    await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),                       
 
 @Client.on_message(filters.command("total_users") & filters.private &  filters.chat(Config.BOT_OWNER))
 async def total_users(_, event: Message):
@@ -22,8 +21,6 @@ async def total_users(_, event: Message):
 @Client.on_message( filters.command("start") & filters.private)
 async def start_handler(_,event: Message):
         caption=Config.START_MSG.format(event.from_user.mention),
-        
-    )
 
 VERIFY = {}
 @Client.on_message(filters.command("request") & filters.group)
