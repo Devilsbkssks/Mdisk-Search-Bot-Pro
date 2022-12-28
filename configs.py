@@ -7,9 +7,9 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", 15823382))
     API_HASH = os.getenv("API_HASH", "016d5e115a06ddfb6121823d72ae4d8c")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5591577616:AAHUE8cMGXAVvJmRdBSwr1Jsfpz4Ltt93LU")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5918078029:AAHOlk_opieJ0cgVOMxOHdoHufraiaYkZHU")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot2")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOHsBuz-1X-mbzQvyNtk6HBa2-tiKMaGyTXl5m4AdWFB_OSNAq4Da0Sm10olyJsxxp6PIRtzqPVQ_VZcR7XXlTeNUewIpWdUK0Ci5nbEkmbJiyiu-HQdAj-EbFJxemfo6DBikaQ-QFXrOTk135MbkM69daLPjOurp5wZbXTdHQjW5WYWzpr8zsAJWBOpxVY0IlhyJZ4SkDYSLCH07YnTdiyntE0R1iIxBvtiIf7AnOM6AiZDh9hhPVddZw98yVr9SMQyJwXgkvnjKA0Q5-u-GaMgOGQgV8_-Pma1dsv_ZqEBVJdIzTM4KzSSV-aQ2vN0lcAS9dFV8GU9_t3mcLVSwwGmHfXM=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001885587345))
     BOT_USERNAME = "mdiskdownliadbot"
     BOT_OWNER = 5104293442
