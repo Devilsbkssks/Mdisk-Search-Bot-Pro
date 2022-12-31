@@ -7,9 +7,9 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "15823382"))
     API_HASH = os.getenv("API_HASH", "016d5e115a06ddfb6121823d72ae4d8c")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5918078029:AAHOlk_opieJ0cgVOMxOHdoHufraiaYkZHU")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Mdiskwalabot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOJIBuz6bz_KCifgGK5ftjrWYQO_1J3cfrzAme7NCBZTafVxqqeDDymSg2geUs0HyYWzdhWE8rpD1eKbXjzs6XRCwQEQ7CrEjapr9G3XUF9CFHfdLBkd3UGsMFR7tG31TSnHbofHs-20I1pYaiKfSYQ4jMc5k9vvoB8zhcETpzKc1C8c9EZjp6q9-pO3lAl-F_zVBtziC7ZVIVhe_5LGSpIe4veMJbDucqikKmgMF5fXy6LdmgdCiwkZLhnnpjKBrTnWeH0ocVoOaERmZvyDCs4-ViSIzMrvVm9ux3yNuugKJuPuPz-CW4axdLr4f7QskosMzExtVNcsMTnZz7GUdApO2J_8=")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5918078029:AAGL5wZx2wBMrlHHxhWy2Ovb0sxNq6Odfzs")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdisktelethonbot")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOHQBuzrunptxL8TS0a7T_AXwS0KrLeFq_Q2A_VGUYaJ9TvjWzehRfG9q1DQfhzQdzW1BCYhioGeQT_glvk4IfYmVnHifhzsAy3A_wvAwZ6UMjb0ehtAZZ7peEYKUoR9p1QDDJzHwpJoNTxIofRQ90LXw5h_knbLhZoODlKm7T5PZFqHRISOMeKYHsIZUjZBFiolPjC6V_P6ArQkmAVpX4borq-UYFu3nMV4VmtfWSQNzjEnm3rnMb-DmSfX-LCDWuex5q79CHB41kc0irQfdIDxm4LFLPSwQLdW3_75AXTvj_dwqH8AbeNjOP0GMBtiBrsZobc0Cni2kbj-fc7zln3dxKa8=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001885587345)) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "Mdisk_search_re_bot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5104293442"))
