@@ -9,8 +9,8 @@ class Config(object):
     API_HASH = os.getenv("API_HASH", "016d5e115a06ddfb6121823d72ae4d8c")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5918078029:AAGL5wZx2wBMrlHHxhWy2Ovb0sxNq6Odfzs")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOMUBu4pNl2PMFlc7IOV-JxaYvUiwIgKNa64zmY0VzkKdK5VFZTzlZkMBrt_THfuVw0Xq82dgJGj3t4W1djInN2TGdAkqTNWefJbN8IOt6ds5b20LOOakNpC9kRLyWPXel7LeKHF0ksfYoljI6FXzirTwi3awoIQ2oBIoSk2bBUeovEtkj7oX7Ob_nmk7wOsAJwppI6wJlf0B7mJVEsYx3fLDpSqwgltkECIiyUOWtttipWMFbZG1OKtqapnvMQVxoo7p-YY750lcOaTKvLUz059Zu4PdJc0TPrgTnbk9pE65u4TTSgarHOSTR_gDFwAQ-uhxJNLhmrCGYhEL5hXQ6EqQJyc=")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001868203603))
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001885587345))
     BOT_USERNAME = "Mdisk_search_re_bot"
     BOT_OWNER = 5104293442
 #    OWNER_USERNAME = os.getenv("Ipapcorn_helper")
@@ -57,7 +57,6 @@ For More Info Click On Help ✅''')
 
 🍓 Sᴛᴇᴘ 5 - ᴀʙ ᴀᴘᴋᴏ ᴀᴘɴᴇ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴍᴇ ᴘᴏꜱᴛ ᴅᴀʟɴɪ ʜᴏɢɪ,
 ᴊɪꜱꜱᴇ ᴋɪ ᴀɢᴀʀ ɢʀᴏᴜᴘ ᴍᴇ ᴋᴏɪ ᴜꜱᴇʀ ꜱᴇᴀʀᴄʜ ᴋᴀʀᴇ ᴛᴏ ʏᴇ ʙᴏᴛ ᴜɴ ᴜꜱᴇʀ ᴋᴇ Qᴜᴀʀʏ ᴋᴏ ꜱᴀᴍᴀᴊʜ ᴋᴇ ᴀᴘᴋᴇ ᴄʜᴀɴɴᴇʟ ꜱᴇ ᴘᴏꜱᴛ ᴜᴛʜᴀ ᴋᴇ ᴜɴʜᴇ ᴅᴇ ᴘᴀʏᴇ.
-
 
 🍓 Note,
 Agar Bot ADMIN Apka Request Accept Nahi Karate Hai To Unse Personal Msg Kare.
