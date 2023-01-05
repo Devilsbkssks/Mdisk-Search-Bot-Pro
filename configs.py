@@ -7,10 +7,11 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", 15823382))
     API_HASH = os.getenv("API_HASH", "016d5e115a06ddfb6121823d72ae4d8c")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5918078029:AAGL5wZx2wBMrlHHxhWy2Ovb0sxNq6Odfzs")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5120091936:AAHbfwbwTuBXK2zbDWV3o4TkGKJR62_oqJo")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001885587345))
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOMUBu2lttPSOwKwCN1aVy0tzCLlDV0UoMlgAQWx_b6nURFT5qJjao9w25B_5lMFshbn53pq4ujErhhFcjDtHYRMP3STwZQo-AQesTT3jQgoWQT84DkS7Zy_iJr8ra6cmk1mhEMkgoI63thV2mOU1xTup5lXaYaE6be4Oq4e0nC3HHzfaQqrDYktgdixcmQrqOeMATlJOJfPv0SAn0HlZKR3uA-n557C_L8FM7uJhdzX7DsZOKECkNxdBHn1I9GnZZVgOfRk33-cgqFrLJtuSU1mkIsZZuPM0EhrX8ip-8ZQVZ9GryyR7pMzQlIYP7q4KifZhGCise87T68OJ_RqtRZ72ANc=")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001868203603)
+
     BOT_USERNAME = "Mdisk_search_re_bot"
     BOT_OWNER = 5104293442
 #    OWNER_USERNAME = os.getenv("Ipapcorn_helper")
@@ -37,7 +38,7 @@ For More Info Click On Help ✅''')
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "False")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "Film_Update_Official")
     FORCE_SUB = os.getenv("FORCE_SUB", "True")
-    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
+    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "UM1dBYJxSu9QO1S9s8Tv")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, i ᴅᴏ ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.✅
@@ -49,11 +50,11 @@ For More Info Click On Help ✅''')
 
 🍓 Sᴛᴇᴘ 2 - ʙᴏᴛ ᴋᴏ ᴀᴘɴᴇ ɢʀᴏᴜᴘ ᴀᴜʀ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴋᴀ ᴀᴅᴍɪɴ ʙᴀɴᴀɴᴀ ʜᴏɢᴀ.
 
-🍓 Sᴛᴇᴘ 3 - ɢʀᴏᴜᴘ ᴍᴇ "/request" ᴛʏᴘᴇ ᴋᴀʀ ᴋᴇ ꜱᴇɴᴅ ᴋᴀʀɴᴀ ʜᴏɢᴀ!
-ꜰɪʀ ʙᴏᴛ ᴋᴇ ᴏᴡɴᴇʀ ᴀᴘᴋᴀ ʏᴇ ʀᴇQᴜᴇꜱᴛ ᴀᴄᴄᴇᴘᴛ ᴋᴀʀ ʟᴇɴɢᴇ. @FYLMREQUESTGROUP
+🍓 Sᴛᴇᴘ 3 - ɢʀᴏᴜᴘ ᴍᴇ "/" ᴛʏᴘᴇ ᴋᴀʀ ᴋᴇ ꜱᴇɴᴅ ᴋᴀʀɴᴀ ʜᴏɢᴀ!
+ꜰɪʀ ʙᴏᴛ ᴋᴇ ᴏᴡɴᴇʀ ᴀᴘᴋᴀ ʏᴇ ʀᴇQᴜᴇꜱᴛ ᴀᴄᴄᴇᴘᴛ ᴋᴀʀ ʟᴇɴɢᴇ. @
 
-🍓 Sᴛᴇᴘ 4 - ɢʀᴏᴜᴘ ᴍᴇ "/addb - ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ɪᴅ" ᴛʏᴘᴇ ᴋᴀʀ ᴋᴇ ꜱᴇɴᴅ ᴋᴀʀɴᴀ ʜᴏɢᴀ.
-ꜰɪʀ ʙᴏᴛ ᴋᴇ ᴏᴡɴᴇʀ ᴀᴘᴋᴀ ʏᴇ ʀᴇQᴜᴇꜱᴛ ʙʜɪ ᴀᴄᴄᴇᴘᴛ ᴋᴀʀ ʟᴇɴɢᴇ @FYLMREQUESTGROUP
+🍓 Sᴛᴇᴘ 4 - ɢʀᴏᴜᴘ ᴍᴇ "/ - ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ɪᴅ" ᴛʏᴘᴇ ᴋᴀʀ ᴋᴇ ꜱᴇɴᴅ ᴋᴀʀɴᴀ ʜᴏɢᴀ.
+ꜰɪʀ ʙᴏᴛ ᴋᴇ ᴏᴡɴᴇʀ ᴀᴘᴋᴀ ʏᴇ ʀᴇQᴜᴇꜱᴛ ʙʜɪ ᴀᴄᴄᴇᴘᴛ ᴋᴀʀ ʟᴇɴɢᴇ @
 
 🍓 Sᴛᴇᴘ 5 - ᴀʙ ᴀᴘᴋᴏ ᴀᴘɴᴇ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴍᴇ ᴘᴏꜱᴛ ᴅᴀʟɴɪ ʜᴏɢɪ,
 ᴊɪꜱꜱᴇ ᴋɪ ᴀɢᴀʀ ɢʀᴏᴜᴘ ᴍᴇ ᴋᴏɪ ᴜꜱᴇʀ ꜱᴇᴀʀᴄʜ ᴋᴀʀᴇ ᴛᴏ ʏᴇ ʙᴏᴛ ᴜɴ ᴜꜱᴇʀ ᴋᴇ Qᴜᴀʀʏ ᴋᴏ ꜱᴀᴍᴀᴊʜ ᴋᴇ ᴀᴘᴋᴇ ᴄʜᴀɴɴᴇʟ ꜱᴇ ᴘᴏꜱᴛ ᴜᴛʜᴀ ᴋᴇ ᴜɴʜᴇ ᴅᴇ ᴘᴀʏᴇ.
@@ -61,6 +62,6 @@ For More Info Click On Help ✅''')
 🍓 Note,
 Agar Bot ADMIN Apka Request Accept Nahi Karate Hai To Unse Personal Msg Kare.
 
-👉 @FYLMREQUESTGROUP Or @Ipapcorn_helper
+👉 @ Or @
 
 ''')
