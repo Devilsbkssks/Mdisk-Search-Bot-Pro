@@ -9,7 +9,7 @@ class Config(object):
     API_HASH = os.getenv("API_HASH", "016d5e115a06ddfb6121823d72ae4d8c")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5120091936:AAHbfwbwTuBXK2zbDWV3o4TkGKJR62_oqJo")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOMUBu2lttPSOwKwCN1aVy0tzCLlDV0UoMlgAQWx_b6nURFT5qJjao9w25B_5lMFshbn53pq4ujErhhFcjDtHYRMP3STwZQo-AQesTT3jQgoWQT84DkS7Zy_iJr8ra6cmk1mhEMkgoI63thV2mOU1xTup5lXaYaE6be4Oq4e0nC3HHzfaQqrDYktgdixcmQrqOeMATlJOJfPv0SAn0HlZKR3uA-n557C_L8FM7uJhdzX7DsZOKECkNxdBHn1I9GnZZVgOfRk33-cgqFrLJtuSU1mkIsZZuPM0EhrX8ip-8ZQVZ9GryyR7pMzQlIYP7q4KifZhGCise87T68OJ_RqtRZ72ANc=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOMUBu8J6gMNw2OqeJtJ5vSUJMwrvdb8vcyfUqM7PrMuExMMU5Q3ik0cTb-GGw8FrZZJvFPvAMz3ASYQd504JtLWVMS7ZJguKKNR9SCOIo7q5C45GRvPvKqVX159t5pdKFNltMnkpF39CwgLXliHFtWMhMaYl2MXdoHYA1SdztX8ZtHncWZ0RXrQNxal5LCExc6Lt99V-HTdb2NlLEKKVHuQncl3juX3GC2IpPYAoFbb-okYSIgTLSCdKN4Aea5NR5iWdKj_lht66wIkX8uxcT0V0NS4PVNb_1ITdsRKR789m46kAsF_pgIuTY5Gx-iB8whvImzMbnG3nJt0V2Bfv5vOLTSk=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001868203603))
 
     BOT_USERNAME = "Mdisk_search_re_bot"
@@ -33,7 +33,7 @@ For More Info Click On Help ✅''')
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅''')
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", -1001740189478)
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://W9Uyj61afEXSw601:W9Uyj61afEXSw601@cluster0.zsxso.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001683642795"))
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001670571048"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 25))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "False")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "Film_Update_Official")
